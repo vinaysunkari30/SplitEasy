@@ -52,10 +52,3 @@
 .toast-item:hover .toast-progress {
   animation-play-state: paused;
 }
-
-.custom-rounded {
-  border-top-left-radius: 999px;
-  border-bottom-left-radius: 999px;
-  border-top-right-radius: 500px;
-  border-bottom-right-radius: 500px;
-}

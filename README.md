@@ -1,59 +1,67 @@
-# SplitEasy – Expense Sharing App
+# SplitEasy
 
-SplitEasy is a simple expense-sharing application that helps friends manage group expenses during trips, parties, hostel stays, and other activities.
+SplitEasy is an expense-sharing application that helps friends manage shared expenses, track individual contributions, and calculate who owes money or gets money back.
 
-## Features
-
-- Create groups and add friends.
-- Add and delete group expenses.
-- Track total group spending.
-- View individual member contributions.
-- Check who owes money and who gets money back.
-- Responsive design for mobile and desktop.
-- Toast notifications for user actions.
+This repository contains the frontend application built using React and Vite.
 
 ## Tech Stack
 
 - React.js
 - Vite
+- JavaScript
 - Tailwind CSS
-- Zustand
 - React Router DOM
 - React Hook Form
+- Axios
 - React Icons
-- UUID
 
-## Getting Started
+## Features
 
-**1. Clone the repository**
+- Add and manage friends and shared expenses.
+- Select payers and update or delete expenses.
+- Track total spending, equal shares, and individual contributions.
+- Calculate balances to identify who owes money and who owed.
+- Responsive UI with form validation, loading indicators, and backend API integration.
+
+## Installation and Setup
+
+### 1. Clone the repositories of Frontend and Backend
 
 ```bash
-git clone https://github.com/vinaysunkari30/SplitEasy.git
+git clone https://github.com/vinaysunkari30/SplitEasy  -> Frontend
+
+git clone https://github.com/vinaysunkari30/SplitEasy-Backend  -> Backend
 ```
 
-**2. Navigate to the project folder**
+### 2. Navigate to the project folder
 
 ```bash
-cd splitEasy
+cd YOUR_FOLDERS
 ```
 
-**3. Install dependencies**
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-**4. Start the development server**
-
 ```bash
 npm run dev
-    or
+  or
 npm start
 ```
 
-Application Live link: https://split-easy-ochre.vercel.app/
+The frontend will run at:
 
-## Author
+```text
+http://localhost:5173 -> Frontend
+
+http://localhoast:3000/api -> Backend
+```
+
+Application Live Link: https://split-easy-steel.vercel.app
+
+### Author
 
 Vinay Sunkari - Fullstack/MERN Stack Developer
 
