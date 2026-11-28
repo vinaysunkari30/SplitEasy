@@ -11,7 +11,7 @@ import {
 } from "react-icons/lu";
 
 import LoadingButton from "./common/loading";
-import TextInput from "./common/TextInput";
+import TextInput from "./common/textInput";
 import { useForm } from "react-hook-form";
 import { ToastContainer, useToast } from "./common/toast";
 

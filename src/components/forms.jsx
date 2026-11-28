@@ -4,7 +4,7 @@ import { useState } from "react";
 import { LuUsers, LuUserPlus, LuX, LuReceipt, LuPlus } from "react-icons/lu";
 
 import { ToastContainer, useToast } from "./common/toast";
-import TextInput from "./common/TextInput";
+import TextInput from "./common/textInput";
 import LoadingButton from "./common/loading";
 import { addPerson, deletePerson } from "../api/peopleApi";
 import { addExpense } from "../api/expensesApi";
